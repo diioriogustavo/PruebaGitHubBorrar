@@ -36,6 +36,8 @@ public class FormInicial extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -47,6 +49,14 @@ public class FormInicial extends javax.swing.JFrame {
         jButton2.setText("jButton2");
         getContentPane().add(jButton2);
         jButton2.setBounds(360, 70, 75, 23);
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(200, 130, 37, 16);
+
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(360, 130, 37, 16);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -88,6 +98,8 @@ public class FormInicial extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 
 }
